@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>SEDONA</title>
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="normalize.css" >
+<link href="SEDONA2.css" rel="stylesheet">
+</head>
+<body>
+<header class="main-header">
+<nav class="main-navigation">
+<ul class="site-navigation">
+<li><a href="#">информация</a></li>
+<li><a href="#">фото и видео</a></li>
+<li><a><img src="%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.png"> </a></li>
+<li><a href="#">карта штата</a></li>
+<li><a href="#">гостиницы</a></li>
+</ul>
+</nav>
+</header>
+
+<main class="hotel_filter">
+    <table>
+      <section class="price-filter">
+      <h1 class="visually-hidden">Параметры жилья и его цены</h1> 
+      <div class="left">
+      <div>
+      <h3>Инфраструктура:</h3>
+      <ul>                
+    <li>
+        <input id="cfirst" type="checkbox" checked name="first"/>
+        <label for="cfirst">Бассейн</label>
+    </li>
+    <li>
+        <input id="csecond" type="checkbox" name="second" hidden />
+        <label for="csecond">Парковка</label>
+    </li>
+    <li>
+        <input id="cthird" type="checkbox" name="third" hidden/>
+        <label for="cthird">wi-fi</label>
+    </li>
+          </ul>
+      </div> 
+      <div>
+          <h3>Тип жилья:</h3>
+          <ul>                
+    <li>
+        <input id="cfour" type="checkbox" checked name="cfour"/>
+        <label for="cfour">Гостиница</label>
+    </li>
+    <li>
+        <input id="cfive" type="checkbox" checked name="cfive" hidden />
+        <label for="cfive">Мотель</label>
+    </li>
+    <li>
+        <input id="csix" type="checkbox" checked name="csix" hidden />
+        <label for="csix">Апартаменты</label>
+    </li>
+          </ul>
+          
+      </div>  
+      </div> 
+      <div class="right">
+         <h3>Стоимость в сутки(р):</h3>
+         <container>
+         <div>от 0</div>
+         <div>до 3000</div>
+         </container>
+         <input type="range" min="0" max="300" step="3" value="0"> 
+         <input type="range" min="0" max="300" step="3" value="250"> 
+         
+         <button>
+          показать
+          </button>
+      </div>
+       </section>
+       <section class="hotel_content">
+           <h2 class="visually-hidden">Сортировка жилья по цене,типу,рейтингу.</h2>
+           <article class="sort_out">
+              <div class="price_type"></div>
+               <h6>Найдено:&nbsp; 3</h6>
+               <span>сортировка:</span>
+               <ul>
+                  
+                   <li><button>по цене</button></li>
+                   <li><button>по типу</button></li>
+                   <li><button>по рейтингу</button></li>
+               </ul>
+               <div class="signsToOpen">
+                   <button><img class="up-dir" src="icon-up-dir.svg"></button><button>
+                   <img src="icon-down-dir.svg">
+                   </button>
+               </div>
+           </article>
+           <section class="choose_&_submit_inks">
+           <h2 class="visually-hidden">Забронировать</h2>
+         <article class="optionToOrder">
+           <div class="image_and_information_of_hotel">
+            <div class="image_of_hotel">
+             <img src="%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%201.jpg" alt="hotel№1">  
+               </div>
+               <div class="information_of_hotel">
+                   <h10>Amara Resort & Spa</h10>
+                   
+                   <ul>
+                   <li>гостиница</li>
+                   <span><li>ОТ 4000 Р.</li></span>
+                   </ul>
+                     <ul><li><button class="more_details">подробнее</button></li>
+                      <li><button class="toBook">забронировать</button></li> 
+                   </ul> 
+                   
+               </div>
+               </div>
+               
+               <div class="rating_of_hotel">
+                   <div class="stars">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                   </div>
+                   <div class="rating">
+                       рейтинг:&nbsp;8,5
+                   </div>
+                    </div>
+               </article>
+               
+               <article class="optionToOrder">
+                   <div class="image_and_information_of_hotel">
+            <div class="image_of_hotel">
+             <img src="%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%202.jpg" alt="hotel№2">  
+               </div>
+               <div class="information_of_hotel">
+                   <h10>Desert Quail Inn</h10>
+                   
+                   <ul><li>мотель</li><span><li>ОТ 3000 Р.</li></span>
+                   </ul>
+                     <ul><li><button class="more_details">подробнее</button></li>
+                      <li><button class="toBook">забронировать</button></li> 
+                   </ul> 
+                   </div>
+                   
+               </div>
+               <div class="rating_of_hotel">
+                   <div class="stars">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                       
+                   </div>
+                   <div class="rating">
+                       рейтинг:&nbsp;8,9
+                   </div>
+                    </div>
+               </article>
+               <article class="optionToOrder">
+                   <div class="image_and_information_of_hotel">
+            <div class="image_of_hotel">
+             <img src="%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%BE%D1%82%D0%B5%D0%BB%D1%8F%203jpg.jpg" alt="hotel№3">  
+               </div>
+              <div class="information_of_hotel">
+                   <h10>Desert Quail Inn</h10>
+                   
+                   <ul>
+                   <li>апартаменты</li>
+                   <span><li>ОТ 2000 Р.</li></span>
+                   </ul>
+                     <ul>
+                     <li><button class="more_details">подробнее</button></li>
+                      <li><button class="toBook">забронировать</button></li> 
+                   </ul> 
+                  </div> 
+               </div>
+               <div class="rating_of_hotel">
+                   <div class="stars">
+                       <img src="star.png" alt="star">
+                       <img src="star.png" alt="star">
+                       
+                   </div>
+                   <div class="rating">
+                       рейтинг:&nbsp;9,2
+                   </div>
+                    </div>
+               </article>
+               
+           </section>
+           <footer>
+<article class="main-footer">
+
+<div>
+<a href="#">
+#VISITSEDONA</a>
+</div>
+<ul class="social_media">
+<a href="#"><li><img src="twitter.svg" width="17px" height="15px" alt="twitter"></li></a>
+
+<a href="#"><li><img src="fb-icon.svg" width="12px" height="22px" alt="facebook"></li></a>
+<a href="#"><li><img src="youtube.svg" width="20px" height="16px" alt="youtube"></li></a>
+</ul>
+<div class="footer_logo">
+WEBSITE BY
+<a>
+<img src="logo_name.png" alt="html academy">
+</a>
+</div>
+</article>
+</footer>
+       </section>
+       
+        
+        
+    </table>
+</main>
+
+
+
+</body>
+
