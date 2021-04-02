@@ -1,7 +1,8 @@
-# Memories
+# Sedona
+
+### [Live Site](https://606720f238098a964f0d0541--distracted-minsky-38b19d.netlify.app/index.html)
 
 ![Sedona](https://i.ibb.co/4Fk6w5k/sedona-index.png)
-
 ![Sedona-catalog](https://i.ibb.co/6Ypg3tV/sedona-catalog.png)
 
 ## Introduction
