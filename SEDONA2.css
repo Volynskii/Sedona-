@@ -9,27 +9,18 @@ body {
     margin: 0;
     padding: 0;
     width:1200px;
-    
+
     font-family: 'PT Sans', sans-serif;
     font-size:14px;
     line-height: 21px;
     font-weight: normal;
     color: #333333;
     text-transform:uppercase;
-    
+
     background-color: white;
-    background-image:url(белый фон.jpg);
-    background-position: top center;
-    position: relative;
-    left: 70px;
-    box-shadow:
-        
-    -40px 0 0 0  #f1f1f1;
-    40px 0 0 0  #f1f1f1;
-    
-    
-      
-    
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h2 {
@@ -42,7 +33,7 @@ h3 {
     font-size: 21px;
     text-align: center;
     padding-top:10px;
-    
+
 }
 h4 {
     font-size: 20px;
@@ -75,33 +66,33 @@ a {
     list-style-type: none;
     min-width: 1200px;
     min-height: 56px;
-    
+
     line-height: 26px;
-    
-   
-    
-    
+
+
+
+
 }
 .site-navigation img {
     position: absolute;
     top:0px;
     z-index: 200;
     left:530px;
-    
+
 }
 .site-navigation li {
-    width: 20%;   
+    width: 20%;
 }
 
 .site-navigation a {
    color: #333333;
-    
+
 }
 
 
 
 .hotel_filter {
-   
+
 }
 .price-filter {
     width: 1200px;
@@ -118,16 +109,16 @@ a {
     min-width: 527px;
     min-height: 217px;
     height: 217px;
-    
+
     display: flex;
     flex-wrap: wrap;
     font-size: 14px;
     line-height: 21px;
     font-weight: normal;
     color: white;
-    
-    
-    
+
+
+
 }
 .price-filter .left ul {
     list-style-type: none;
@@ -141,10 +132,10 @@ a {
     min-width:263px;
     min-height: 217px;
     display: flex;
-    
+
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 .price-filter .left li {
@@ -160,8 +151,8 @@ a {
     font-size:14px;
     line-height: 21px;
     font-weight: normal;
-    
-    
+
+
 }
 .price-filter button {
     margin-right:90px;
@@ -169,7 +160,7 @@ a {
     width: 138px;
     height: 38px;
     background-color: transparent;
-    border: 2px solid white; 
+    border: 2px solid white;
     color:#ffffff;
 }
 .price-filter button:hover {
@@ -185,7 +176,7 @@ a {
     font-size:14px;
     line-height: 21px;
     font-weight: normal;
-   
+
 }
 .price-filter .left h3 {
     font-size: 16px;
@@ -195,8 +186,8 @@ a {
 .price-filter .right h3 {
     margin-right: 90px;
     margin-top: 32px;
-    
-    
+
+
     font-size:16px;
     line-height: 21px;
     font-weight: bold;
@@ -209,7 +200,7 @@ a {
     border: 1px solid black;
     display: flex;
     align-items: stretch;
-    
+
 }
 .price-filter .right div {
     width: 50%;
@@ -220,15 +211,15 @@ a {
     align-items: center;
 }
 .sort_out {
-    
+
     height: 86px;
     display: flex;
     align-items: center;
-    
+
     font-size:12px;
     line-height: 18px;
     font-weight: normal;
-    
+
 }
 h6 {
     font-size:21px;
@@ -240,19 +231,19 @@ h6 {
     margin-right: 6px;
     border-bottom: 0px solid black;
     margin-left: 50px;
-    
-    
+
+
 }
 
 .sort_out ul {
     display: flex;
-    
-    list-style-type: none;   
+
+    list-style-type: none;
 }
 .sort_out li {
     margin-right: 34px;
     border-bottom: 1px dashed #81b3d2;
-    
+
 
 }
 
@@ -261,7 +252,7 @@ h6 {
     background-color: transparent;
     outline: 0px;
     color:#d1d1d1;
-    
+
 }
 .sort_out button:hover {
     color:#81b3d2;
@@ -271,14 +262,14 @@ h6 {
     font-weight: normal;
 }
 
- 
+
 
 
 
 
 .signsToOpen {
     width: 34px;
-    
+
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -286,18 +277,18 @@ h6 {
     opacity: 0.3;
     color:aqua;
     width:50px;
-    
+
 }
 .signsToOpen:hover {
     opacity: 0.9;
-    
+
 }
 
 .choose_&_submit_inks {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    
+
 }
 .optionToOrder {
     display: flex;
@@ -311,14 +302,14 @@ h6 {
     font-weight: normal;
     border: 1px solid #f6f6f6;
     box-shadow: 1px #f6f6f6;
-    
+
 }
 .image_and_information_of_hotel {
     display: flex;
     height: 90px;
-    
-    
-   
+
+
+
 }
 
 .image_of_hotel {
@@ -326,7 +317,7 @@ h6 {
     min-height: 90px;
     background-color:black;
     margin-right:  30px;
-    
+
 }
 .information_of_hotel {
     min-width: 260px;
@@ -336,12 +327,12 @@ h6 {
     flex-direction: column;
     justify-content: space-between;
     margin-right:  30px;
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 }
 .information_of_hotel ul {
     display: flex;
@@ -378,7 +369,7 @@ h10:active {
 .more_details {
     background-color:#81b3d2;
     width: 110px;
-    
+
     text-transform: uppercase;
 }
 .more_details:hover {
@@ -393,7 +384,7 @@ h10:active {
     background-color: #766357;
     width: 143px;
     text-transform: uppercase;
-    
+
 }
 .toBook:hover {
     background-color: #604e43;
@@ -404,24 +395,24 @@ h10:active {
     color:#7e736c;
 }
 .rating_of_hotel {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height:90px;
-    
+
 }
 .stars {
-    
+
     height: 17px;
     padding-left: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    
+
 }
 .rating {
-    
+
     line-height: 21px;
     font-size: 14px;
     font-weight: normal;
@@ -431,12 +422,12 @@ h10:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+
+
+
 }
 input[type="checkbox"] {
-    display:none;   
+    display:none;
     margin: 0 5px 0 0;
 }
 input[type="checkbox"] + label {
@@ -445,8 +436,8 @@ input[type="checkbox"] + label {
     font-weight: normal
   color: #444;
   cursor: pointer;
-    
-    
+
+
 }
 input[type="checkbox"] + label::before {
     content: "";
@@ -470,7 +461,7 @@ input[type="checkbox"]:checked + label::before {
     background-image:url(checkbox-on.png);
     background-repeat: no-repeat;
     border: 0px;
-    
+
 }
 input[type="range"] {
     width: 320px;
@@ -479,14 +470,14 @@ input[type="range"] {
 }
 input[type=range] {
   -webkit-appearance: none;
-  
+
   margin: 18.9px 0;
 }
 input[type=range]:focus {
   outline: none;
 }
 input[type=range]::-webkit-slider-runnable-track {
-  
+
   height: 2px;
   cursor: pointer;
   box-shadow: 1.1px 1.1px 1.7px #050000, 0px 0px 1.1px #1f0000;
@@ -576,11 +567,11 @@ input[type=range]:focus::-ms-fill-upper {
     align-items: center;
     padding-left: 133px;
     padding-right: 102px;
-    
+
     margin-left: 70px;
-    
-    
-    
+
+
+
 }
 .main-footer:nth-child(1) a {
     font-size:21px;
@@ -596,10 +587,10 @@ input[type=range]:focus::-ms-fill-upper {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    
+
     margin: 0;
     padding: 0;
-    
+
 }
 .social_media a {
     width: 46px;
@@ -610,13 +601,13 @@ input[type=range]:focus::-ms-fill-upper {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+
+
+
 }
 .social_media :hover {
     background-color: #669ec0;
-    
+
 }
 .social_media img:active {
     opacity: 0.5;
